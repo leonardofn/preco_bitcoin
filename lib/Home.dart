@@ -17,7 +17,7 @@ class _HomeState extends State<Home> {
     http.Response response = await http.get(apiUrl);
     Map<String, dynamic> retorno = json.decode(response.body);
     setState(() {
-      _preco = retorno["BRL"]['buy'].toString();
+      _preco = retorno["BRL"]["buy"].toString();
     });
   }
 
@@ -45,11 +45,11 @@ class _HomeState extends State<Home> {
                   "Atualizar",
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.orange,
+                    color: Colors.white,
                   ),
                 ),
                 onPressed: _recuperarPreco,
-                color: Colors.white,
+                color: Colors.orange,
                 padding: EdgeInsets.fromLTRB(30, 15, 30, 15),
               )
             ],
