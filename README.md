@@ -1,5 +1,9 @@
 # precobitcoin
 
+## Screenshot
+
+![alt tag](https://raw.githubusercontent.com/leonardofn/preco_bitcoin/master/Screenshot.png)
+
 Aplicativo Flutter para o monitoramento do preço do bitcoin.
 
 ## Getting Started
